@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern E-Commerce Navbar</title>
+    <link rel="stylesheet" href="{% static 'assets\css\style.css' %}" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <div class="logo">FastCart</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Vendors</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Track Order</a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <a href="#"><i class="fas fa-search"></i></a>
+        <a href="#"><i class="fas fa-user"></i></a>
+        <a href="#"><i class="fas fa-heart"></i><span></span></a>
+        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+      </div>
+      <div class="buttons">
+        <button>Sign In <i class="fas fa-sign-in-alt"></i></button>
+        <button>Sign Up <i class="fas fa-user-plus"></i></button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>
+        Everything Tech, <span style="color: #7b2cbf">Best Prices</span> & Free
+        Delivery
+      </h1>
+      <p>
+        Welcome to FastCart, shop faster, easier, and securely with amazing
+        deals and support.
+      </p>
+      <div class="search-bar">
+        <input type="text" placeholder="Search Item..." />
+        <button><i class="fas fa-search"></i></button>
+      </div>
+    </section>
+  </body>
+</html>
